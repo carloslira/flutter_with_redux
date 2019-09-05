@@ -1,0 +1,21 @@
+name: flutter_with_redux
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  redux: ^3.0.0
+  flutter_redux: ^0.5.3
+  redux_thunk: ^0.2.1
+  redux_api_middleware: ^0.1.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
