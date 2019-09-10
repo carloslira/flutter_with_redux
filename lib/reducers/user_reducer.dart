@@ -14,7 +14,7 @@ UserState userReducer(UserState state, FSA action) {
     case LIST_USERS_REQUEST:
       newState.list.error = null;
       newState.list.loading = true;
-      newState.details.data = null;
+      newState.list.data = null;
       return newState;
 
     case LIST_USERS_SUCCESS:
